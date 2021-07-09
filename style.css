@@ -181,4 +181,8 @@ a {
   #theme-toggle svg {
     transform: scale(0.75);
   }
+
+  #theme-toggle::after {
+    display: none;
+  }
 }
