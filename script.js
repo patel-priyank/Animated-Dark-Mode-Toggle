@@ -18,6 +18,9 @@ function enableLightMode() {
 }
 
 function setThemePreference() {
+  console.log("Cloning dark mode toggle on Google Fonts using Kevin Powell's tutorial.");
+  console.log('https://www.youtube.com/watch?v=QtuLN0lNb-Y');
+
   if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
     enableDarkMode();
     return;
